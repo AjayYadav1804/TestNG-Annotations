@@ -118,6 +118,11 @@ To generate and open Allure reports:
 mvn allure:serve
 ```
 
+**Test Execution Report:**
+![Image](https://github.com/user-attachments/assets/098912c5-98a2-49ec-b313-93bd6a5afe18)
+![Image](https://github.com/user-attachments/assets/5ade7e79-77e0-447d-b3c7-00b24007eef5)
+![Image](https://github.com/user-attachments/assets/047e84d8-5b30-4523-8f3f-130d5f962cb4)
+
 ## 🙏 Acknowledgments
 
 - TestNG Documentation
