@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter Suite" >
+    <test parallel="instances" verbose="2" thread-count="2"  name="LearnTestNG">
+         <parameter name="value" value="Ajay"></parameter>
+         <parameter name="lastName" value="Kumar"/>
+        <parameter name="age" value="30"/>
+        <parameter name="city" value="Bangalore"/>
+        <classes >
+            <class name="com.ajaytest.testng.param.ParamDemo"> </class>
+        </classes>
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="parallel"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+
+    </test>
+</suite>
